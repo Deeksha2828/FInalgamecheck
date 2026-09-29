@@ -16,13 +16,13 @@ gdjs.scenario_321Code.GDNameInput1Objects2= [];
 
 
 gdjs.scenario_321Code.mapOfGDgdjs_9546scenario_9595321Code_9546GDstartButtonObjects1Objects = Hashtable.newFrom({"startButton": gdjs.scenario_321Code.GDstartButtonObjects1});
-gdjs.scenario_321Code.asyncCallback13807404 = function (runtimeScene, asyncObjectsList) {
+gdjs.scenario_321Code.asyncCallback11244500 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.scenario_321Code.localVariables);
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Scenario 2", false);
 }
 gdjs.scenario_321Code.localVariables.length = 0;
 }
-gdjs.scenario_321Code.idToCallbackMap.set(13807404, gdjs.scenario_321Code.asyncCallback13807404);
+gdjs.scenario_321Code.idToCallbackMap.set(11244500, gdjs.scenario_321Code.asyncCallback11244500);
 gdjs.scenario_321Code.eventsList0 = function(runtimeScene) {
 
 {
@@ -32,7 +32,7 @@ gdjs.scenario_321Code.eventsList0 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.scenario_321Code.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.scenario_321Code.asyncCallback13807404(runtimeScene, asyncObjectsList)), 13807404, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.scenario_321Code.asyncCallback11244500(runtimeScene, asyncObjectsList)), 11244500, asyncObjectsList);
 }
 }
 

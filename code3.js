@@ -63,6 +63,8 @@ if (isConditionTrue_0) {
     gdjs.Final_32sceneCode.GDSubmitObjects1[i].hide();
 }
 }
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "scenario 1", false);
+}
 }
 
 }
